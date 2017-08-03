@@ -1,0 +1,162 @@
+body {
+	margin: 0 auto;
+	background-color: #dfe3ee;
+}
+.page-title {
+	max-width: 100%;
+	background-color: #3b5998;
+	height: 85px;
+	color: white;
+	padding-bottom: 5px;
+}
+
+.page-body, .page-title-content {
+	width: 75%;
+	color: black;
+	margin: 0 auto; 
+	font-family: "Segoe UI";
+}
+
+.page-title-left{
+	font-weight: bolder;
+	color: #fff;
+}
+
+.page-title-right {
+	font-family: arial;
+	font-size: 12px;
+	color: #fff;
+}
+
+.page-body-left, .page-body-right, .page-title-left{
+	max-width: 50%;
+	float: left;
+}
+
+.page-body-right, .page-title-right {
+	float: right;
+}
+
+.page-title-right{
+	display: flex;
+	flex-direction: row;
+	margin-top: 15px;
+}
+
+.page-body-left{
+	padding-top: 50px;
+}
+.form-block {
+	display: block;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.frm-wid{
+	width: 96%;
+}
+
+.frm-nam{
+	width: 46%;
+}
+
+.frm-sty{
+	padding: 2px 6px 2px 6px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 1px solid lightblue;
+	height: 30px;
+}
+
+.frm-btn{
+	height: 40px;
+	color: #fff;
+	background-color: green;
+	margin-bottom: 10px;
+}
+
+.frm-dat{
+	float: left; 
+	margin-right: 5px;
+}
+
+.frm-dat-height{
+	height: 35px;
+}
+
+.frm-log {
+	margin-bottom: 5px;
+}
+
+button {
+	height: 23px;
+	margin-top: 23px;
+	background-color: #36c;
+	color:#fff;
+	border-width: 0;
+}
+
+span a:link, span a:visited {
+	color: lightgrey;
+}
+
+a:link {
+	text-decoration: none;
+	color: #3b5998;
+}
+
+.terms, .bd{
+	font: 13px arial;
+}
+
+.rad, .hed{
+	font: 18px arial;
+}
+
+.hed {
+	position: relative;
+	top: -17px;
+}
+
+.bd-lbl {
+	font: 18px arial;
+	line-height: .5;
+	margin-bottom: 2.5px;
+	position: relative;
+	top: -5px;
+}
+
+.bd{
+	position: relative; 
+	top: -8px;
+}
+
+.core, .page-footer {
+	font-weight: bold;
+}
+
+.page-footer{
+	font-family: arial;
+}
+
+img {
+	margin-right: 15px;
+}
+
+.core-div, .core-hed {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+@media  only screen and(max-width: 900px){
+	.page-title-content, .page-body {
+		max-width: 100%;
+	}
+
+	.page-body-right, .page-body-left{
+		width: 40%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
