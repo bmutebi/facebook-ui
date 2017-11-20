@@ -10,7 +10,8 @@ body {
 	padding-bottom: 5px;
 }
 
-.page-body, .page-title-content {
+.page-body, 
+.page-title-content {
 	width: 75%;
 	color: black;
 	margin: 0 auto; 
@@ -28,12 +29,15 @@ body {
 	color: #fff;
 }
 
-.page-body-left, .page-body-right, .page-title-left{
+.page-body-left, 
+.page-body-right, 
+.page-title-left{
 	max-width: 50%;
 	float: left;
 }
 
-.page-body-right, .page-title-right {
+.page-body-right, 
+.page-title-right {
 	float: right;
 }
 
@@ -149,12 +153,14 @@ img {
 	margin-bottom: 30px;
 }
 
-@media  only screen and(max-width: 900px){
-	.page-title-content, .page-body {
+@media  only screen and (max-width: 900px){
+	.page-title-content, 
+	.page-body {
 		max-width: 100%;
 	}
 
-	.page-body-right, .page-body-left{
+	.page-body-right, 
+	.page-body-left{
 		width: 40%;
 		padding-left: 5%;
 		padding-right: 5%;
